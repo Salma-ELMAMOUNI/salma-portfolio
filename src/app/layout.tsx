@@ -22,9 +22,12 @@ const plexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Salma El Mamouni | Data Scientist Junior — NLP & Séries temporelles",
+  title: "Salma El Mamouni | AI Engineer",
   description:
-    "Portfolio de Salma El Mamouni, Data Scientist junior spécialisée en NLP, Deep Learning et séries temporelles.",
+    "Portfolio de Salma El Mamouni, AI Engineer spécialisée en Artificial Intelligence, Machine Learning, Deep Learning et NLP.",
+  verification: {
+    google: "0jIJ_O9fZaKkLH0nuuckdxs9vUUwS0RTwfTS5tnoj4g",
+  },
 };
 
 export default function RootLayout({
