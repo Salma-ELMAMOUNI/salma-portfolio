@@ -1,6 +1,6 @@
 import { profile } from "@/lib/data";
 import Reveal from "./Reveal";
-
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 const creds = [
   { label: "Formation", value: profile.education },
   { label: "Localisation", value: profile.location },
@@ -22,7 +22,7 @@ export default function About() {
             <div className="flex justify-center sm:justify-start">
               <div className="overflow-hidden rounded-xl border border-line">
                 <img
-   <img src="/profile.jpeg" alt="Salma El Mamouni" ... />
+   <img src="src={`${basePath}/profile.jpeg`}" alt="Salma El Mamouni" ... />
                   className="h-[280px] w-[220px] object-cover"
                 />
               </div>
