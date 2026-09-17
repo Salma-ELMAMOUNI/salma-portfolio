@@ -21,10 +21,11 @@ export default function About() {
           <Reveal delay={0.03}>
             <div className="flex justify-center sm:justify-start">
               <div className="overflow-hidden rounded-xl border border-line">
-            
-   <img src="src={`${basePath}/profile.jpeg`}" alt="Salma El Mamouni" 
-                  className="h-[280px] w-[220px] object-cover"
-                />
+ <img
+  src={`${basePath}/profile.jpeg`}
+  alt="Salma El Mamouni"
+  className="h-[280px] w-[220px] object-cover"
+/>
               </div>
             </div>
           </Reveal>
