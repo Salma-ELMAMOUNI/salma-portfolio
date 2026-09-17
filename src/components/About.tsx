@@ -22,7 +22,7 @@ export default function About() {
             <div className="flex justify-center sm:justify-start">
               <div className="overflow-hidden rounded-xl border border-line">
  <img
-  src={${process.env.NEXT_PUBLIC_BASE_PATH}/profile.jpeg}
+src={${process.env.NEXT_PUBLIC_BASE_PATH}/profile.jpeg}
   alt="Salma El Mamouni"
   className="h-[280px] w-[220px] object-cover"
 />
