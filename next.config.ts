@@ -1,11 +1,13 @@
-import type { NextConfig } from "next";
+const basePath = '/salma-portfolio';
 
-const nextConfig: NextConfig = {
-  output: "export",
-  basePath: "/salma-portfolio",
-  images: {
-    unoptimized: true,
+const nextConfig = {
+  output: 'export',
+  basePath,
+  assetPrefix: `${basePath}/`,
+  images: { unoptimized: true },
+  env: {
+    NEXT_PUBLIC_BASE_PATH: basePath,
   },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
